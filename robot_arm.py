@@ -19,7 +19,7 @@ forward_direction = True  # 처음에는 0에서 485로 이동
 target_angles = {1:90.0, 2:0.0, 3:0.0, 4:0.0, 5:0.0, 6:0.0}
 reverse_angles = {1:-90.0, 2:0.0, 3:0.0, 4:0.0, 5:0.0, 6:0.0}
 def rotate_robot_arm():
-    """로봇 팔의 몸통을 180도 회전"""
+    """로봇 팔의 몸통을 180도 회전""
     global forward_direction
     if forward_direction:
         print("Rotating robot arm to 180 degrees (facing opposite)...")
